@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 Summary:	PySH - a Python shell
 Summary(pl):	PySH - pow³oka z osadzonym Pythonem
 Name:		pysh
