@@ -29,8 +29,6 @@ Pythona, jak równie¿ jako pow³oka, w zale¿no¶ci od kontekstu wywo³anej
 komendy.
 
 %prep
-%setup -q -c -T
-cp -f %{SOURCE0} .
 
 %install
 rm -rf $RPM_BUILD_ROOT
