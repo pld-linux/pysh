@@ -7,7 +7,7 @@ Release:	1
 License:	BSD
 Group:		Applications/Shells
 Source0:	http://unixnaut.com/skills/Languages/python/%{name}.py
-# Source0-md5:	75c7eeb4ee72168de2ac34f4c27fa8ec
+# NoSource0-md5:	75c7eeb4ee72168de2ac34f4c27fa8ec
 URL:		http://unixnaut.com/skills/Languages/python/pysh.html
 BuildRequires:	python-modules >= 2.2.1
 BuildRequires:	rpm-pythonprov
@@ -29,12 +29,14 @@ Pythona, jak równie¿ jako pow³oka, w zale¿no¶ci od kontekstu wywo³anej
 komendy.
 
 %prep
+%setup -q -c -T
+cp -f %{SOURCE0} .
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-cp %{SOURCE0} $RPM_BUILD_ROOT%{_bindir}
+install %{SOURCE0} $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
