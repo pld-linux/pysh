@@ -5,7 +5,7 @@ Name:		pysh
 Version:	0.04
 Release:	1
 License:	BSD
-Group:		Development/Languages/Python
+Group:		Applications/Shells
 Source0:	http://unixnaut.com/skills/Languages/python/%{name}.py
 # Source0-md5:	75c7eeb4ee72168de2ac34f4c27fa8ec
 URL:		http://unixnaut.com/skills/Languages/python/pysh.html
