@@ -9,7 +9,6 @@ Source0:	http://unixnaut.com/skills/Languages/python/%{name}.py
 # NoSource0-md5:	75c7eeb4ee72168de2ac34f4c27fa8ec
 URL:		http://unixnaut.com/skills/Languages/python/pysh.html
 BuildRequires:	python-modules >= 2.2.1
-BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
