@@ -28,6 +28,8 @@ zmiennych, funkcji, warunków, itd.  Dzia³a zarówno jako interpreter
 Pythona, jak równie¿ jako pow³oka, w zale¿no¶ci od kontekstu wywo³anej
 komendy.
 
+%prep
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
