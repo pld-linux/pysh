@@ -21,11 +21,12 @@ conditions, etc. It functions as both a Python interpretter and shell,
 depending on command context.
 
 %description -l pl
-Pow³oka z osadzonym Pythonem, która mo¿e byæ u¿yta jako zamiennik dla
-Basha. Umo¿liwia wykonywanie zwyczajowych operacji udostêpnianych
-przez pow³oki po³±czonych z wykorzystaniem pythonowych zmiennych,
-funkcji, warunków, itd. Dzia³a zarówno jako interpreter Pythona, jak
-równie¿ jako pow³oka, w zale¿no¶ci od kontekstu wywo³anej komendy.
+PySH jest pow³ok± z osadzonym Pythonem, która mo¿e byæ u¿yta jako
+zamiennik dla Basha. Umo¿liwia wykonywanie zwyczajowych operacji
+udostêpnianych przez pow³oki po³±czonych z wykorzystaniem pythonowych
+zmiennych, funkcji, warunków, itd.  Dzia³a zarówno jako interpreter
+Pythona, jak równie¿ jako pow³oka, w zale¿no¶ci od kontekstu wywo³anej
+komendy.
 
 %install
 rm -rf $RPM_BUILD_ROOT
