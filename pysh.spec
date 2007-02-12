@@ -1,5 +1,5 @@
 Summary:	PySH - a Python shell
-Summary(pl):	PySH - pow≥oka z osadzonym Pythonem
+Summary(pl.UTF-8):   PySH - pow≈Çoka z osadzonym Pythonem
 Name:		pysh
 Version:	0.04
 Release:	1
@@ -18,12 +18,12 @@ your normal shell things but using Python variables, functions,
 conditions, etc. It functions as both a Python interpretter and shell,
 depending on command context.
 
-%description -l pl
-PySH jest pow≥ok± z osadzonym Pythonem, ktÛra moøe byÊ uøyta jako
-zamiennik dla Basha. Umoøliwia wykonywanie zwyczajowych operacji
-udostÍpnianych przez pow≥oki po≥±czonych z wykorzystaniem pythonowych
-zmiennych, funkcji, warunkÛw, itd.  Dzia≥a zarÛwno jako interpreter
-Pythona, jak rÛwnieø jako pow≥oka, w zaleøno∂ci od kontekstu wywo≥anej
+%description -l pl.UTF-8
+PySH jest pow≈ÇokƒÖ z osadzonym Pythonem, kt√≥ra mo≈ºe byƒá u≈ºyta jako
+zamiennik dla Basha. Umo≈ºliwia wykonywanie zwyczajowych operacji
+udostƒôpnianych przez pow≈Çoki po≈ÇƒÖczonych z wykorzystaniem pythonowych
+zmiennych, funkcji, warunk√≥w, itd.  Dzia≈Ça zar√≥wno jako interpreter
+Pythona, jak r√≥wnie≈º jako pow≈Çoka, w zale≈ºno≈õci od kontekstu wywo≈Çanej
 komendy.
 
 %prep
