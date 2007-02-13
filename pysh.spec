@@ -1,5 +1,5 @@
 Summary:	PySH - a Python shell
-Summary(pl.UTF-8):   PySH - powłoka z osadzonym Pythonem
+Summary(pl.UTF-8):	PySH - powłoka z osadzonym Pythonem
 Name:		pysh
 Version:	0.04
 Release:	1
